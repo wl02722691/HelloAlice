@@ -6,11 +6,6 @@
 #  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
 #
 
-Pod::Spec.new do |s|
-s.name         = "HelloAlice"
-s.version      = "1.0.0"
-s.summary      = "A short description of HelloAlice."
-
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  These will help people to find your library, and whilst it
@@ -19,8 +14,8 @@ s.summary      = "A short description of HelloAlice."
   #
 
   s.name         = "HelloAlice"
-  s.version      = "0.0.1"
-  s.summary      = "A short description of HelloAlice."
+  s.version      = "1.0.0"
+  s.summary      = "This is HelloAlice."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -30,7 +25,7 @@ s.summary      = "A short description of HelloAlice."
   s.description  = <<-DESC
                    DESC
 
-  s.homepage     = "http://EXAMPLE/HelloAlice"
+  s.homepage     = "https://github.com/wl02722691/HelloAlice"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -41,7 +36,7 @@ s.summary      = "A short description of HelloAlice."
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
+  s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -55,7 +50,7 @@ s.summary      = "A short description of HelloAlice."
   #  profile URL.
   #
 
-  s.author             = { "Alice" => "achang@health2sync.com" }
+  s.author             = { "Alice" => "wl02722691@gmail.com" }
   # Or just: s.author    = "Alice"
   # s.authors            = { "Alice" => "achang@health2sync.com" }
   # s.social_media_url   = "http://twitter.com/Alice"
@@ -67,7 +62,7 @@ s.summary      = "A short description of HelloAlice."
   #
 
   # s.platform     = :ios
-  # s.platform     = :ios, "5.0"
+  # s.platform     = :ios, "12.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -82,7 +77,7 @@ s.summary      = "A short description of HelloAlice."
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://EXAMPLE/HelloAlice.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/wl02722691/HelloAlice", :tag => "1.0.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -93,7 +88,7 @@ s.summary      = "A short description of HelloAlice."
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  s.source_files  = "HelloAlice", "HelloAlice.swift"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
