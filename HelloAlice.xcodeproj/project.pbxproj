@@ -46,7 +46,9 @@
 		69D93517228826B900D4E11A = {
 			isa = PBXGroup;
 			children = (
-				69D93523228826B900D4E11A /* HelloAlice */,
+				69D93524228826B900D4E11A /* HelloAlice.h */,
+				69D93525228826B900D4E11A /* Info.plist */,
+				69D9352C228827B000D4E11A /* HelloAlice.swift */,
 				69D93522228826B900D4E11A /* Products */,
 				464A8C8EBCBE1DA58E468778 /* Pods */,
 				BB603A4CED66C9EA2590872B /* Frameworks */,
@@ -59,16 +61,6 @@
 				69D93521228826B900D4E11A /* HelloAlice.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		69D93523228826B900D4E11A /* HelloAlice */ = {
-			isa = PBXGroup;
-			children = (
-				69D93524228826B900D4E11A /* HelloAlice.h */,
-				69D93525228826B900D4E11A /* Info.plist */,
-				69D9352C228827B000D4E11A /* HelloAlice.swift */,
-			);
-			path = HelloAlice;
 			sourceTree = "<group>";
 		};
 		BB603A4CED66C9EA2590872B /* Frameworks */ = {

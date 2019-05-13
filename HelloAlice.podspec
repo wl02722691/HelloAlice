@@ -28,7 +28,7 @@ s.source = { :git => "https://github.com/wl02722691/HelloAlice.git", :tag => "1.
 # s.dependency 'MBProgressHUD', '~> 1.1.0'
 
 # 8
-s.source_files = "HelloAlice/HelloAlice/*.{h,m,swift}"
+s.source_files = "HelloAlice/**/*.{h,m,swift}"
 
 s.swift_version = "4.2"
 
