@@ -1,6 +1,0 @@
-framework module Pods_HelloAlice {
-  umbrella header "Pods-HelloAlice-umbrella.h"
-
-  export *
-  module * { export * }
-}
